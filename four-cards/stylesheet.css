@@ -13,7 +13,7 @@
 body
 {
 font-family: 'tex_gyre_adventorregular', sans-serif;
-background-color: rgb(247, 241, 241)
+background-color: rgb(247, 241, 241);
 }
 h2{
     font-size: 12px;
@@ -52,6 +52,7 @@ p{
    
 
 }
+
 .boite1
 {
     background-color: snow;
@@ -109,4 +110,7 @@ p{
 .boite4 img{
     display: block;
     margin-left: auto;
+}
+@media all and (max-width: 1024){
+    
 }
