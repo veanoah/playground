@@ -1,5 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 supprimer .gitignore
 =======
 .autre.swp
 >>>>>>> 570bb6dbd7363731e5649169ee94ae973172c7a7
+=======
+.DS_Store
+.autre.swp
+>>>>>>> 0ebaebf6dcb2fb360f0cb43567bf49b3cba6b9d1

@@ -15,37 +15,41 @@ body
 font-family: 'tex_gyre_adventorregular', sans-serif;
 background-color: rgb(247, 241, 241);
 }
-h2{
-    font-size: 12px;
-}
+
 p{
     font-size: 8px;
-    color: rgb(145, 139, 139)
+    color: rgb(184, 179, 179)
 }
-.title1
+h1
 {
-    color: rgb(145, 139, 139);
+    color: rgb(141, 140, 140);
     text-align:center;
     font-style:normal;
     font-weight: normal;
     font-size: 25px;
-    line-height: 25px;
+    line-height: 20px;
 }
-.title2
+h2
 {
     text-align: center;
     color:black;
+    font-style: normal;
+    font-weight: bold;
     font-size: 25px;    
-    line-height: 20px;
+    line-height: 25px;
 }
-
+h3
+{
+    font-size: 12px;
+}
 .para1
 {
-    color:rgb(184, 180, 180);
+    color:rgb(184, 178, 178);
     text-align:center;
     font-size: 12px;
 }
-#container{
+#container
+{
     display: flex;
     justify-content: center;
     max-width: 1140px;
@@ -64,7 +68,8 @@ p{
     margin: 20px;
 
 }
-.boite1 img{
+.boite1 img
+{
     display: block;
     margin-left: auto;
 }
@@ -79,7 +84,8 @@ p{
     margin: 20px;
 
 }
-.boite2 img{
+.boite2 img
+{
     display: block;
     margin-left: auto;
 }
@@ -94,11 +100,13 @@ p{
     margin: 20px;
 
 }
-.boite3 img{
+.boite3 img
+{
     display: block;
     margin-left: auto;
 }
-.boite4{
+.boite4
+{
     background-color: snow;
     width: 200px;
     height: 130px;
@@ -107,7 +115,8 @@ p{
     box-shadow:5px 5px 5px rgb(145, 139, 139);
     margin: 20px;
 }
-.boite4 img{
+.boite4 img
+{
     display: block;
     margin-left: auto;
 }
