@@ -51,22 +51,24 @@ h3
 #container
 {
     display: flex;
+    flex-direction:column;
     justify-content: center;
     max-width: 1140px;
-   
-
+    margin: auto;
+    text-align: justify;
+    align-items:center;
 }
 
 .boite1
 {
+    display: flexbox;
     background-color: snow;
     width: 200px;
     height: 130px;
     padding: 15px;
     border-top:3px rgb(15, 187, 230)solid;
     box-shadow:5px 5px 5px rgb(145, 139, 139);
-    margin: 20px;
-
+    margin: 10px;
 }
 .boite1 img
 {
@@ -75,13 +77,14 @@ h3
 }
 .boite2
 {
+    display: flexbox;
     background-color: snow;
     width: 200px;
     height: 130px;
     padding: 15px;
     border-top:3px rgb(230, 15, 15)solid;
     box-shadow:5px 5px 5px rgb(145, 139, 139);
-    margin: 20px;
+    margin: 10px;
 
 }
 .boite2 img
@@ -91,13 +94,14 @@ h3
 }
 .boite3
 {
+    display: flexbox;
     background-color: snow;
     width: 200px;
     height: 130px;
     padding: 15px;
     border-top:3px rgb(230, 137, 15)solid;
     box-shadow:5px 5px 5px rgb(145, 139, 139);
-    margin: 20px;
+    margin: 10px;
 
 }
 .boite3 img
@@ -107,19 +111,43 @@ h3
 }
 .boite4
 {
+    display: flexbox;
     background-color: snow;
     width: 200px;
     height: 130px;
     padding: 15px;
     border-top:3px rgb(29, 15, 230)solid;
     box-shadow:5px 5px 5px rgb(145, 139, 139);
-    margin: 20px;
+    margin: 10px;
 }
 .boite4 img
 {
     display: block;
     margin-left: auto;
 }
-@media all and (max-width: 1024){
-    
+
+
+@media all and (max-device-width: 1024px)
+{
+    #container
+    {
+        flex-direction: row;
+        width: auto;
+    }
+    .boite1
+    {
+        width: auto;
+    }
+    .boite2
+    {
+        width: auto;
+    }
+    .boite3
+    {
+        width: auto;
+    }
+    .boite4
+    {
+    width: auto;
+    }
 }
