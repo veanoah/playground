@@ -51,7 +51,7 @@ h3
 #container
 {
     display: flex;
-    flex-direction:column;
+    flex-wrap: wrap;
     justify-content: center;
     max-width: 1140px;
     margin: auto;
@@ -59,68 +59,74 @@ h3
     align-items:center;
 }
 
-.boite1
+.card-one
 {
-    display: flexbox;
     background-color: snow;
     width: 200px;
     height: 130px;
     padding: 15px;
     border-top:3px rgb(15, 187, 230)solid;
     box-shadow:5px 5px 5px rgb(145, 139, 139);
+    overflow: hidden;
+    border-radius: 5px;
     margin: 10px;
+    transform:translate(50%)
 }
-.boite1 img
+.card-one img
 {
     display: block;
     margin-left: auto;
 }
-.boite2
+.card-two
 {
-    display: flexbox;
     background-color: snow;
     width: 200px;
     height: 130px;
     padding: 15px;
     border-top:3px rgb(230, 15, 15)solid;
     box-shadow:5px 5px 5px rgb(145, 139, 139);
+    overflow: hidden;
+    border-radius: 5px;
     margin: 10px;
 
 }
-.boite2 img
+.card-two img
 {
     display: block;
     margin-left: auto;
 }
-.boite3
+.card-three
 {
-    display: flexbox;
     background-color: snow;
     width: 200px;
     height: 130px;
     padding: 15px;
     border-top:3px rgb(230, 137, 15)solid;
     box-shadow:5px 5px 5px rgb(145, 139, 139);
+    overflow: hidden;
+    border-radius: 5px;
     margin: 10px;
 
 }
-.boite3 img
+.card-three img
 {
     display: block;
     margin-left: auto;
 }
-.boite4
+.card-four
 {
-    display: flexbox;
     background-color: snow;
     width: 200px;
     height: 130px;
     padding: 15px;
     border-top:3px rgb(29, 15, 230)solid;
     box-shadow:5px 5px 5px rgb(145, 139, 139);
+    overflow: hidden;
+    border-radius: 5px;
     margin: 10px;
+    transform: translate(50%);
 }
-.boite4 img
+.card-four img
 {
     display: block;
     margin-left: auto;
@@ -129,25 +135,22 @@ h3
 
 @media all and (max-device-width: 1024px)
 {
-    #container
-    {
-        flex-direction: row;
-        width: auto;
+
     }
-    .boite1
+    .card-one
     {
-        width: auto;
+        transform: translate(0);
     }
-    .boite2
+    .card-two
     {
-        width: auto;
+        transform: translateY(0);
     }
-    .boite3
+    .card-three
     {
-        width: auto;
+        transform: translateY(0);    
     }
-    .boite4
+    .card-four
     {
-    width: auto;
+         transform: translate(0);
     }
 }
