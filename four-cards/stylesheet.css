@@ -67,16 +67,15 @@ h3
     padding: 15px;
     border-top:3px rgb(15, 187, 230)solid;
     box-shadow:5px 5px 5px rgb(145, 139, 139);
-    overflow: hidden;
-    border-radius: 5px;
     margin: 10px;
-    transform:translate(50%)
 }
+
 .card-one img
 {
     display: block;
     margin-left: auto;
 }
+
 .card-two
 {
     background-color: snow;
@@ -85,11 +84,9 @@ h3
     padding: 15px;
     border-top:3px rgb(230, 15, 15)solid;
     box-shadow:5px 5px 5px rgb(145, 139, 139);
-    overflow: hidden;
-    border-radius: 5px;
     margin: 10px;
-
 }
+
 .card-two img
 {
     display: block;
@@ -103,10 +100,7 @@ h3
     padding: 15px;
     border-top:3px rgb(230, 137, 15)solid;
     box-shadow:5px 5px 5px rgb(145, 139, 139);
-    overflow: hidden;
-    border-radius: 5px;
     margin: 10px;
-
 }
 .card-three img
 {
@@ -121,10 +115,7 @@ h3
     padding: 15px;
     border-top:3px rgb(29, 15, 230)solid;
     box-shadow:5px 5px 5px rgb(145, 139, 139);
-    overflow: hidden;
-    border-radius: 5px;
     margin: 10px;
-    transform: translate(50%);
 }
 .card-four img
 {
@@ -136,21 +127,4 @@ h3
 @media all and (max-device-width: 1024px)
 {
 
-    }
-    .card-one
-    {
-        transform: translate(0);
-    }
-    .card-two
-    {
-        transform: translateY(0);
-    }
-    .card-three
-    {
-        transform: translateY(0);    
-    }
-    .card-four
-    {
-         transform: translate(0);
-    }
 }
