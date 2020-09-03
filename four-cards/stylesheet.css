@@ -1,18 +1,8 @@
-@font-face {
-    font-family: 'tex_gyre_adventorregular';
-    src: url('texgyreadventor-regular-webfont.eot');
-    src: url('texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('texgyreadventor-regular-webfont.woff2') format('woff2'),
-         url('texgyreadventor-regular-webfont.woff') format('woff'),
-         url('texgyreadventor-regular-webfont.ttf') format('truetype'),
-         url('texgyreadventor-regular-webfont.svg#tex_gyre_adventorregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
-}
 body
 {
-font-family: 'tex_gyre_adventorregular', sans-serif;
+font-family: 'Poppins', sans-serif;
 background-color: rgb(247, 241, 241);
 }
 
